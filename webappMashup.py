@@ -25,8 +25,7 @@ flag=0
 end=0
 import streamlit as st
 import os
-st.title('Mashup:notes:')
-st.write('Made by Singla saab')
+st.title('Mashup:')
 name=st.text_input("Singer Name")
 n=int(st.number_input("No. of videos",step=1))
 duration=int(st.number_input("Duration",step=1))
